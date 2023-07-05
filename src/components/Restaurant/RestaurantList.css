@@ -1,0 +1,49 @@
+.restaurant-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  flex-grow: initial;
+}
+
+.restaurant-list-container h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-view {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  flex: 0 0 calc(33.33% - 20px);
+}
+.slideshow-container {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Slides {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardview {
+  margin-right: 10px;
+}
+.restaurant {
+  font-family: arial;
+  font-weight: 300;
+  font-size: x-large;
+  font: bold;
+  margin-left: 10px;
+}

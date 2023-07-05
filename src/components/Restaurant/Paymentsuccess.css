@@ -1,0 +1,46 @@
+.logo {
+  height: 90px;
+  position: static;
+}
+.food {
+  height: 410px;
+}
+.box {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 135px;
+  width: 615px;
+  font-size: 16px;
+  background-color: lightgrey;
+  color: #555;
+  line-height: 1.4;
+  padding: 4.5px;
+}
+.billlogo {
+  height: 100px;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+h4 {
+  color: #555;
+}
+a {
+  color: #ee7800;
+}
+.social {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.order {
+  font-size: 24px;
+  color: #ee7700;
+}
+.fork {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

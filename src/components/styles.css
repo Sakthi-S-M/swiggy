@@ -240,6 +240,7 @@ form a {
   font-size: 14px;
   color: #2f7aa5;
 }
-.root {
-  width: 100%;
+.signup-container {
+  padding-left: 100px;
+  padding-right: 100px;
 }
