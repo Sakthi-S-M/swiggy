@@ -1,29 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./Cart.css";
 import { useNavigate } from "react-router-dom";
+import useCartStore from "./useCartStore";
 
-const Cart = ({ initialCartItems, onAddToCart }) => {
+const Cart = ({ initialCartItems }) => {
   const navigate = useNavigate();
+  const cartItems = useCartStore((state) => state.cartItems);
+  const setCartItems = useCartStore((state) => state.setCartItems);
+  const removeFromCart = useCartStore((state) => state.removeFromCart);
+  const updateQuantity = useCartStore((state) => state.updateQuantity);
 
   const taxRate = 0.05;
   const shippingRate = 15.0;
-  const fadeTime = 300;
+
   useEffect(() => {
     setCartItems(initialCartItems);
   }, [initialCartItems]);
-  const [cartItems, setCartItems] = useState(initialCartItems);
-
-  const updateQuantity = (index, quantity) => {
-    const updatedItems = [...cartItems];
-    updatedItems[index].quantity = quantity;
-    setCartItems(updatedItems);
-  };
-
-  const removeItem = (index) => {
-    const updatedItems = [...cartItems];
-    updatedItems.splice(index, 1);
-    setCartItems(updatedItems);
-  };
 
   const recalculateCart = () => {
     let subtotal = 0;
@@ -42,7 +34,7 @@ const Cart = ({ initialCartItems, onAddToCart }) => {
   };
 
   const handleRemoveItem = (index) => {
-    removeItem(index);
+    removeFromCart(index);
   };
 
   const { subtotal, tax, shipping, total } = recalculateCart();
@@ -52,16 +44,17 @@ const Cart = ({ initialCartItems, onAddToCart }) => {
     alert("Payment success");
     navigate("/paymentsuccess");
   };
+
   return (
     <>
-      <div class="cart-container">
+      <div className="cart-container">
         <h4>CART DETAILS</h4>
-        <div class="column-labels">
-          <label class="product-details">Product</label>
-          <label class="product-quantity">Quantity</label>
-          <label class="product-price">Price</label>
-          <label class="product-removal">Remove</label>
-          <label class="product-line-price">Total</label>
+        <div className="column-labels">
+          <label className="product-details">Product</label>
+          <label className="product-quantity">Quantity</label>
+          <label className="product-price">Price</label>
+          <label className="product-removal">Remove</label>
+          <label className="product-line-price">Total</label>
         </div>
         {cartItems && cartItems.length > 0 ? (
           cartItems.map((item, index) => (
