@@ -99,7 +99,7 @@ const Main = () => {
         </div>
         <div className="img-container">
           <img
-            src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/03/08174730/Swiggy.jpg"
+            src="https://www.hotelierindia.com/wp-content/uploads/cloud/2023/05/08/image-6-1024x768.png"
             alt=""
           />
         </div>

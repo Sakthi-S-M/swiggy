@@ -1,21 +1,32 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Cart.css";
 import { useNavigate } from "react-router-dom";
 import useCartStore from "./useCartStore";
 
-const Cart = ({ initialCartItems }) => {
+const Cart = ({ initialCartItems, onAddToCart }) => {
   const navigate = useNavigate();
-  const cartItems = useCartStore((state) => state.cartItems);
-  const setCartItems = useCartStore((state) => state.setCartItems);
-  const removeFromCart = useCartStore((state) => state.removeFromCart);
-  const updateQuantity = useCartStore((state) => state.updateQuantity);
-
+  const updateTotalAmount = useCartStore((state) => state.updateTotalAmount);
   const taxRate = 0.05;
   const shippingRate = 15.0;
 
   useEffect(() => {
-    setCartItems(initialCartItems);
+    setCartItems([...initialCartItems]);
   }, [initialCartItems]);
+
+  const [cartItems, setCartItems] = useState(initialCartItems);
+
+  const updateQuantity = (index, quantity) => {
+    const updatedItems = [...cartItems];
+    updatedItems[index].quantity = quantity;
+    setCartItems(updatedItems);
+  };
+
+  const removeItem = (index) => {
+    setCartItems((prevItems) => {
+      const updatedItems = prevItems.filter((_, i) => i !== index);
+      return updatedItems;
+    });
+  };
 
   const recalculateCart = () => {
     let subtotal = 0;
@@ -34,15 +45,20 @@ const Cart = ({ initialCartItems }) => {
   };
 
   const handleRemoveItem = (index) => {
-    removeFromCart(index);
+    removeItem(index);
   };
 
   const { subtotal, tax, shipping, total } = recalculateCart();
   const handleCheckout = (e) => {
+    handleUpdateTotal();
     e.preventDefault();
     localStorage.setItem("ispaymentsuccess", "true");
     alert("Payment success");
     navigate("/paymentsuccess");
+  };
+  const handleUpdateTotal = () => {
+    const newTotal = total;
+    updateTotalAmount(newTotal);
   };
 
   return (
