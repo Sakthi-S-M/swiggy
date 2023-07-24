@@ -50,9 +50,19 @@ const Cart = () => {
     <>
       <div className="cart-container">
         <span>
-          <img src={data[Hotelid].img_url} alt="" className="image" />
-          <h4>{data[Hotelid].name}</h4>
-          <h6>{data[Hotelid].cuisines[0]}</h6>
+          {data[Hotelid] ? (
+            <img src={data[Hotelid].img_url} alt="" className="image" />
+          ) : (
+            <span>
+              <img
+                src="https://www.foodiesfeed.com/wp-content/uploads/2023/04/cheeseburger.jpg"
+                alt=""
+                className="image"
+              />
+            </span>
+          )}
+          <h4>{data[Hotelid] ? data[Hotelid].name : "Hotel"}</h4>
+          <h6>{data[Hotelid] ? data[Hotelid].cuisines[0] : "Items"}</h6>
         </span>
         <hr></hr>
         <div className="column-labels">

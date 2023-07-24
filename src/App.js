@@ -12,7 +12,6 @@ import MainSec from "./components/MainPage/Main";
 import RestaurantPage from "./components/Restaurant/RestaurantPage";
 import Navbar from "./components/Navbar/Navbar";
 import PaymentSuccess from "./components/Restaurant/PaymentSuccess";
-import Account from "./components/MainPage/Account";
 import Checkout from "./components/Restaurant/Checkout";
 import EmptyCart from "./components/Restaurant/EmptyCart";
 import Logout from "./components/MainPage/Logout";
@@ -70,10 +69,7 @@ const App = () => {
                 />
               }
             />
-            <Route
-              path="/account"
-              element={<PrivateRoute path="/account" element={<Account />} />}
-            />
+
             <Route
               path="/paymentsuccess"
               element={

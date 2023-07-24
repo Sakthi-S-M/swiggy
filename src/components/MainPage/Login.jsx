@@ -55,9 +55,9 @@ const Login = () => {
       const storedCartItems = localStorage.getItem(`cartItems_${username}`);
       const cartItems = storedCartItems ? JSON.parse(storedCartItems) : [];
       useCartStore.getState().setCartItems(cartItems);
-      localStorage.setItem("username", users[index].username);
-      localStorage.setItem("activeuserphone", users[index].phoneno);
-      localStorage.setItem("isAuthenticated", "true");
+      sessionStorage.setItem("username", users[index].username);
+      sessionStorage.setItem("activeuserphone", users[index].phoneno);
+      sessionStorage.setItem("isAuthenticated", "true");
       swal("Login successful", "Explore foods near you", "success");
       navigate("/restaurants");
     } else {

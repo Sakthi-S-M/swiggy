@@ -2,7 +2,7 @@ import create from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import { data } from "../data/Mockdata";
 const getUserId = () => {
-  const username = localStorage.getItem("username");
+  const username = sessionStorage.getItem("username");
   return username;
 };
 const useCartStore = create(

@@ -10,8 +10,8 @@ const Step = () => {
   const Location = localStorage.getItem("Location");
   const clearCart = useCartStore((state) => state.clearCart);
 
-  const activeuser = localStorage.getItem("username");
-  const activeuserphone = localStorage.getItem("activeuserphone");
+  const activeuser = sessionStorage.getItem("username");
+  const activeuserphone = sessionStorage.getItem("activeuserphone");
   const handleCheckout = () => {
     localStorage.setItem("isPaymentSuccess", "true");
     clearCart();

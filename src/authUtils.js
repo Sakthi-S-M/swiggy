@@ -1,5 +1,5 @@
 const isAuthenticated = () => {
-  return localStorage.getItem("isAuthenticated") === "true";
+  return sessionStorage.getItem("isAuthenticated") === "true";
 };
 
 const isPaymentSuccess = () => {
