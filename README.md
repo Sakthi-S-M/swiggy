@@ -11,19 +11,23 @@ Install the packages and libraries
 
 ### Images
 ## Login/SignUp page
-<img width="1440" alt="image" src="https://github.com/Sakthi-S-M/swiggy/assets/83497718/82f2035c-d6f6-49fb-8291-341f711666ae">
+![image](https://github.com/Sakthi-S-M/swiggy/assets/83497718/e76d1c5f-75d5-4945-a6d3-712c21d0b5da)
+
 
 ## Restaurant Details
-<img width="1440" alt="image" src="https://github.com/Sakthi-S-M/swiggy/assets/83497718/a16e24a8-75c4-4cd3-a98c-cb931879cdcf">
+![image](https://github.com/Sakthi-S-M/swiggy/assets/83497718/e420c444-a894-4aa8-8c0f-58939132ed35)
+![image](https://github.com/Sakthi-S-M/swiggy/assets/83497718/fb5d985b-90d8-4d49-a0ff-df0ddd267fe2)
+
 
 ## Order Food
-<img width="1440" alt="image" src="https://github.com/Sakthi-S-M/swiggy/assets/83497718/e0f78b78-55bc-41dc-a786-f3664569c039">
+![image](https://github.com/Sakthi-S-M/swiggy/assets/83497718/b24b18c5-8e21-4190-b809-e91ca79bff52)
+![image](https://github.com/Sakthi-S-M/swiggy/assets/83497718/1d8d5eba-928d-4301-a3b3-edee9c43226d)
+
 
 ## Checkout 
-<img width="1440" alt="image" src="https://github.com/Sakthi-S-M/swiggy/assets/83497718/15406d0c-3820-4df4-87d5-b52dd0f9007a">
+![image](https://github.com/Sakthi-S-M/swiggy/assets/83497718/a23388f0-c874-46e8-8ebd-72ffbaa121c1)
 
-## Account 
-<img width="1440" alt="image" src="https://github.com/Sakthi-S-M/swiggy/assets/83497718/3a1fa9f3-7a08-4de5-b6dc-2f20af6c4fe1">
+
 
 
 
