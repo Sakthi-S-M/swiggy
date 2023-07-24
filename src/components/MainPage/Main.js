@@ -7,16 +7,17 @@ import { useState } from "react";
 import Signup from "./Signup";
 
 const styleHidden = {
-  right: "-460px",
+  display: "none",
 };
+
 const styleVisible = {
-  right: "0",
+  display: "block",
 };
 
 const Main = () => {
   const [signupState, setSignupState] = useState(styleHidden);
   const [loginState, setLoginState] = useState(styleHidden);
-
+  const [location, setlocation] = useState("");
   const openLogin = () => {
     if (loginState === styleHidden) {
       if (signupState === styleVisible) {
@@ -37,6 +38,28 @@ const Main = () => {
     } else {
       setSignupState(styleHidden);
     }
+  };
+  const getlocation = () => {
+    const successCallback = (position) => {
+      const { latitude, longitude } = position.coords;
+      console.log(latitude, longitude);
+      fetch(
+        `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=ee1d76cbf4304d04a42eca1b00efbee4`
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          setlocation(data.results[0].formatted);
+          localStorage.setItem("Location", data.results[0].formatted);
+          console.log(location);
+          // console.log(data);
+        });
+    };
+
+    const errorCallback = (error) => {
+      console.log(error);
+    };
+
+    navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
   };
 
   return (
@@ -67,7 +90,11 @@ const Main = () => {
           </div>
           <p>Order food from restaurants near you.</p>
           <div className="searchbox">
-            <input type="text" placeholder="Enter your location" />
+            <input
+              type="text"
+              placeholder="Enter your location"
+              value={location.slice(0, 60)}
+            />
             <div className="btn-container">
               <Button
                 style={{
@@ -77,6 +104,7 @@ const Main = () => {
                   color: "#505160",
                   textTransform: "none",
                 }}
+                onClick={getlocation}
               >
                 Locate me
               </Button>

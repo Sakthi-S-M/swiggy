@@ -1,86 +1,138 @@
+.main {
+  display: flex;
+}
+.main .container {
+  width: 100%;
+  padding: 8% 5% 5% 6%;
+}
+
+.Hotelname {
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.para {
+  font-size: 0.93rem;
+  margin-left: 1px;
+  color: #7e808c;
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+.dotted-line {
+  border-top: 1px dotted black;
+}
+.min {
+  font-weight: 600;
+  color: rgb(6, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
 .food-card {
-  border: 1px solid #e2e2e2;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 700px;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.food-card-content {
+  flex: 1 1 auto;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 
 .food-card h3 {
-  font-size: 18px;
-  margin-bottom: 8px;
-}
-
-.food-card p {
+  margin: 0;
+  font-weight: 300;
   font-size: 14px;
-  margin-bottom: 8px;
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
 }
 
-.food-card button {
-  background-color: #fc8019;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-.food-card button:hover {
-  background-color: #f2650e;
+.food-card-image {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-left: 10px;
 }
 
 .food-image {
-  float: right;
-}
-
-.button-51 {
-  background-color: transparent;
-  border: 1px solid;
-  box-sizing: border-box;
-  color: #00132c;
-  font-family: "Avenir Next LT W01 Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin-right: 10px;
-}
-
-.button-51:hover,
-.button-51:active {
-  outline: 0;
-}
-
-.button-51:hover {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.button-51:before {
-  background-color: #eea878;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
   width: 100%;
-  z-index: -1;
+  height: auto;
+  border-radius: 0.3cm;
+}
+.add_cart {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 2px;
+  font-family: Arial;
+  font-weight: 400;
+  color: #14a05a;
+  font-size: 13px;
+  background: #ffffff;
+  padding: 7px 30px 7px 30px;
+  border: solid #ced9cf 1.4px;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 45px;
 }
 
-.button-51:hover:before {
-  background-color: #eea878;
+.add_cart:hover {
+  text-decoration: none;
+  box-shadow: 1px 2px 3px rgb(211, 225, 225);
+}
+.dottedline {
+  border-top: 1px solid rgb(203, 196, 196);
+}
+.vegbox {
+  font-size: 30px;
+  color: #14a05a;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 15px;
 }
 
-@media (min-width: 768px) {
-  .button-51 {
-    padding: 16px 32px;
-  }
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 23px;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #1bb170;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #17c069;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }

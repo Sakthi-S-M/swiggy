@@ -4,6 +4,11 @@ import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core/styles";
 import "../styles.css";
+import { useCartStore } from "../Restaurant/useCartStore";
+
+import swal from "sweetalert";
+import CryptoJS from "crypto-js";
+
 const useStyles = makeStyles({
   root: {
     "& label.Mui-focused": {
@@ -24,22 +29,41 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const classes = useStyles();
 
   const handleLogin = (e) => {
     e.preventDefault();
-    const storedUsername = localStorage.getItem("username");
-    const storedPassword = localStorage.getItem("password");
-    if (username === storedUsername && password === storedPassword) {
-      // Login successful
+    const storedUsers = localStorage.getItem("users");
+    if (!storedUsers) {
+      swal("Try Again", "No registered users found", "error");
+      return;
+    }
+    const users = JSON.parse(storedUsers);
+    const user = users.find((user) => user.username === username);
+    const index = users.findIndex((user) => user.username === username);
+    if (!user) {
+      swal("Try Again", "Invalid username or password", "error");
+      return;
+    }
+    const storedPassword = user.password;
+    const decryptedPassword = CryptoJS.AES.decrypt(
+      storedPassword,
+      "secret-key"
+    ).toString(CryptoJS.enc.Utf8);
+    if (password === decryptedPassword) {
+      console.log(users[index].username);
+      const storedCartItems = localStorage.getItem(`cartItems_${username}`);
+      const cartItems = storedCartItems ? JSON.parse(storedCartItems) : [];
+      useCartStore.getState().setCartItems(cartItems);
+      localStorage.setItem("username", users[index].username);
+      localStorage.setItem("activeuserphone", users[index].phoneno);
       localStorage.setItem("isAuthenticated", "true");
-      alert("Login successful");
+      swal("Login successful", "Explore foods near you", "success");
       navigate("/restaurants");
     } else {
-      // Login failed
-      alert("Invalid username or password");
+      swal("Try Again", "Invalid username or password", "error");
     }
   };
-  const classes = useStyles();
   return (
     <div>
       <form className="form">

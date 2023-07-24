@@ -1,4 +1,5 @@
 import React from "react";
+import "./FoodCard.css";
 const FoodCard = ({
   foodName,
   foodDescription,
@@ -6,22 +7,24 @@ const FoodCard = ({
   onAddToCart,
   foodimage,
 }) => {
-  const handleAddToCart = () => {
-    onAddToCart(foodName, foodPrice);
-  };
-
   return (
     <>
       <div className="food-card">
-        <h3>{foodName}</h3>
-        <img src={foodimage} className="Food" alt=""></img>
-        <i>
-          <p>Description: {foodDescription}</p>
-        </i>
-        <b>
-          <p>Price: ${foodPrice}</p>
-        </b>
-        <button onClick={handleAddToCart}>Add to Cart</button>
+        <div className="food-card-content">
+          <div className="vegbox">&#9856;</div>
+          <h3>{foodName}</h3>
+          <b>
+            <p> &#x20B9; {foodPrice}</p>
+          </b>
+
+          <button onClick={onAddToCart} className="add_cart">
+            Add
+          </button>
+        </div>
+        <div className="dottedline"></div>
+        <div className="food-card-image">
+          <img src={foodimage} className="food-image" alt="" />
+        </div>
       </div>
     </>
   );

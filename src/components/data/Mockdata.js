@@ -297,7 +297,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -1206,7 +1206,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -2115,7 +2115,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -3024,7 +3024,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -3933,7 +3933,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -4843,7 +4843,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -5752,7 +5752,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -6661,7 +6661,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -7569,7 +7569,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -8478,7 +8478,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -9387,7 +9387,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -10295,7 +10295,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -11204,7 +11204,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -12113,7 +12113,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -13022,7 +13022,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -13931,7 +13931,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -14840,7 +14840,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -15748,7 +15748,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -16657,7 +16657,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -17566,7 +17566,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -18475,7 +18475,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -19384,7 +19384,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -20293,7 +20293,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -21202,7 +21202,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -22111,7 +22111,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -23026,7 +23026,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -23935,7 +23935,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -24844,7 +24844,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -25753,7 +25753,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -26671,7 +26671,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -27580,7 +27580,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -28489,7 +28489,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -29398,7 +29398,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -30307,7 +30307,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -31216,7 +31216,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -32125,7 +32125,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -33034,7 +33034,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -33943,7 +33943,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -34852,7 +34852,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -35768,7 +35768,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -36677,7 +36677,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -37586,7 +37586,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -38495,7 +38495,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -39403,7 +39403,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -40312,7 +40312,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -41220,7 +41220,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -42129,7 +42129,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -43037,7 +43037,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -43954,7 +43954,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -44862,7 +44862,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -45770,7 +45770,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -46679,7 +46679,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -47588,7 +47588,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -48496,7 +48496,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -49405,7 +49405,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -50313,7 +50313,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -51222,7 +51222,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -52131,7 +52131,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -53040,7 +53040,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -53949,7 +53949,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -54857,7 +54857,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -55766,7 +55766,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -56675,7 +56675,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -57591,7 +57591,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -58499,7 +58499,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -59407,7 +59407,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -60315,7 +60315,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -61223,7 +61223,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -62131,7 +62131,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -63039,7 +63039,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -63948,7 +63948,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -64856,7 +64856,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -65764,7 +65764,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -66672,7 +66672,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -67580,7 +67580,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -68488,7 +68488,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -69396,7 +69396,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -70304,7 +70304,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -71212,7 +71212,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -72120,7 +72120,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -73028,7 +73028,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -73936,7 +73936,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -74844,7 +74844,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -75752,7 +75752,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -76660,7 +76660,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -77568,7 +77568,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -78476,7 +78476,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -79384,7 +79384,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -80292,7 +80292,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -81200,7 +81200,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -82108,7 +82108,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },
@@ -83016,7 +83016,7 @@ const data = [
         description:
           "Large portions of our new Hyderabadi style Biryani rice, served with double portions of Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & a Pepsi PET [serves 2-3]",
         img_url:
-          "hhttps://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsmati4wh9ocb2y9wqwc",
         veg: false,
         best_seller: false,
       },

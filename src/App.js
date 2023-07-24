@@ -3,10 +3,8 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Link,
   Navigate,
 } from "react-router-dom";
-import Login from "./components/MainPage/Login";
 import RestaurantList from "./components/Restaurant/RestaurantList";
 import Signup from "./components/MainPage/Signup";
 import "./components/styles.css";
@@ -15,66 +13,79 @@ import RestaurantPage from "./components/Restaurant/RestaurantPage";
 import Navbar from "./components/Navbar/Navbar";
 import PaymentSuccess from "./components/Restaurant/PaymentSuccess";
 import Account from "./components/MainPage/Account";
+import Checkout from "./components/Restaurant/Checkout";
+import EmptyCart from "./components/Restaurant/EmptyCart";
+import Logout from "./components/MainPage/Logout";
+import { isAuthenticated } from "./authUtils";
+
+const PrivateRoute = ({ path, element }) => {
+  if (!isAuthenticated() && path !== "/login") {
+    return <Navigate to="/signup" />;
+  }
+
+  return element;
+};
+
 const App = () => {
-  const isAuthenticated = localStorage.getItem("isAuthenticated") === "true";
-  const isPaymentsuccess = localStorage.getItem("ispaymentsuccess") === "true";
   return (
     <div>
       <Router>
         <div>
           <Routes>
-            <Route path="/main" element={<MainSec />} />
-          </Routes>
-          <Routes>
+            <Route path="/view/home" element={<MainSec />} />
             <Route
               path="/login"
               element={
-                isAuthenticated ? <Navigate to="/restaurants" /> : <Login />
+                <div>
+                  <Navigate to="/restaurants" />
+                </div>
               }
             />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/logout" element={<Logout />} />
+            <Route
+              path="/checkout"
+              element={<PrivateRoute path="/checkout" element={<Checkout />} />}
+            />
             <Route
               path="/restaurants"
               element={
-                isAuthenticated ? (
-                  <>
-                    <Navbar />
-                    <RestaurantList />
-                  </>
-                ) : (
-                  <div>
-                    <p>
-                      Please <Link to="/login">login</Link> to access the
-                      restaurant list.
-                    </p>
-                    <p>
-                      Don't have an account? <Link to="/signup">Signup</Link>
-                    </p>
-                  </div>
-                )
+                <PrivateRoute
+                  path="/restaurants"
+                  element={<RestaurantList />}
+                />
               }
             />
             <Route
               path="/restaurants/:hotelId"
               element={
-                <>
-                  <Navbar />
-                  <RestaurantPage />
-                </>
+                <PrivateRoute
+                  path="/restaurants/:hotelId"
+                  element={
+                    <>
+                      <Navbar />
+                      <RestaurantPage />
+                    </>
+                  }
+                />
               }
             />
-            <Route path="/account" element={<Account />} />
+            <Route
+              path="/account"
+              element={<PrivateRoute path="/account" element={<Account />} />}
+            />
             <Route
               path="/paymentsuccess"
               element={
-                isPaymentsuccess ? (
-                  <PaymentSuccess />
-                ) : (
-                  <div>
-                    <p>Payment Not yet confirmed</p>
-                  </div>
-                )
+                <PrivateRoute
+                  path="/paymentsuccess"
+                  element={<PaymentSuccess />}
+                />
               }
+            />
+            <Route
+              path="/noitems"
+              element={<PrivateRoute path="/noitems" element={<EmptyCart />} />}
             />
           </Routes>
         </div>

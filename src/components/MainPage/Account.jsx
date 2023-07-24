@@ -7,7 +7,7 @@ const Account = () => {
         <div className="profile-bg"></div>
         <section className="sub-container">
           <aside className="profile-image">
-            <a className="camera" href="#">
+            <a className="camera" href="/">
               <i className="fas fa-camera"></i>
             </a>
           </aside>
@@ -20,9 +20,9 @@ const Account = () => {
               Pizzas, Burgers, Biryanis, Desserts or order from Subway, Pizza
               Hut, Dominos, KFC, McDonalds
               <br />
-              Name : {localStorage.getItem("username")}
+              Name : {localStorage.getItem("activeuser")}
               <br />
-              Email Id :{localStorage.getItem("email")}
+              Phoneno :{localStorage.getItem("activeuserphone")}
             </p>
           </section>
         </section>

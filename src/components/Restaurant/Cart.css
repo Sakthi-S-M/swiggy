@@ -3,10 +3,9 @@
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
-  border: 1px solid #ccc;
   padding: 20px;
-  width: fit-content;
-  background: transparent;
+  width: 450px;
+  background: rgb(255, 255, 255);
 }
 .cart-container h4 {
   margin-bottom: 10px;
@@ -30,6 +29,10 @@
 
 .product p {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  color: black;
+  font-weight: 400;
 }
 
 .product-quantity input {
@@ -38,9 +41,14 @@
 }
 
 .product-price,
-.product-line-price,
+.product-line-price {
+  text-align: right;
+  width: 10px;
+}
 .product-removal {
   text-align: right;
+  width: 10px;
+  font-size: smaller;
 }
 
 .product-removal button {
@@ -78,4 +86,25 @@
 
 .checkout button:hover {
   background-color: #31a359;
+}
+.itemquantity {
+  margin: 0.4em 0;
+}
+.dottedline {
+  border-top: 1px solid rgb(203, 196, 196);
+}
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
+.boldline {
+  border-top: 3px solid rgb(3, 3, 3);
+}
+p {
+  font-size: smaller;
+}
+.image {
+  object-fit: contain;
+  height: 80px;
+  width: 100px;
 }

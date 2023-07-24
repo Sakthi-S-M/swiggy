@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
+import swal from "sweetalert";
+import { useNavigate } from "react-router-dom";
+import CryptoJS from "crypto-js";
+
 import "../styles.css";
 const useStyles = makeStyles({
   root: {
@@ -23,25 +27,79 @@ const useStyles = makeStyles({
 const Signup = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
+  const [phoneno, setphoneno] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  let flag = 0;
   const [signupSuccess, setSignupSuccess] = useState(false);
   const classes = useStyles();
-
+  const handlepassword = (password) => {
+    let passwrd = password;
+    let lowercase = /[a-z]/g;
+    let uppercase = /[A-Z]/g;
+    let numbers = /[0-9]/g;
+    if (!passwrd.match(lowercase)) {
+      setErrorMessage("Password should contains lowercase letters!");
+    } else if (!passwrd.match(uppercase)) {
+      setErrorMessage("Password should contain uppercase letters!");
+    } else if (!passwrd.match(numbers)) {
+      setErrorMessage("Password should contains numbers also!");
+    } else if (passwrd.length < 10) {
+      setErrorMessage("Password length should be more than 10.");
+    } else {
+      return (flag = 1);
+    }
+  };
   const handleSignup = (e) => {
     e.preventDefault();
-    // Store user information in localStorage
-    localStorage.setItem("username", username);
-    localStorage.setItem("password", password);
-    localStorage.setItem("email", email);
-    setSignupSuccess(true);
-    alert("Try to login Signup is completed");
+    const encryptedPassword = CryptoJS.AES.encrypt(
+      password,
+      "secret-key"
+    ).toString();
+    const newUser = {
+      username: username,
+      password: encryptedPassword,
+      email: email,
+      phoneno: phoneno,
+    };
+
+    const storedUsers = localStorage.getItem("users");
+    let users = [];
+    if (storedUsers) {
+      users = JSON.parse(storedUsers);
+    }
+    const existingUser = users.find((user) => user.username === username);
+    if (existingUser) {
+      swal("Error", "Username already exists!", "error");
+      return;
+    }
+
+    flag = handlepassword(password);
+
+    if (flag === 1) {
+      users.push(newUser);
+      localStorage.setItem("users", JSON.stringify(users));
+      setSignupSuccess(true);
+
+      swal("Good Job!", "You have signed up login to explore foods", "success");
+      navigate("/view/home");
+    } else {
+      swal("Try Again");
+    }
+  };
+  const handlelogin = () => {
+    navigate("/view/home");
   };
 
   return (
     <div className="signup-container">
       <h1>Sign up</h1>
       <p>
-        or <a href="#">login to your account</a>
+        or{" "}
+        <button className="buttonlogin" onClick={handlelogin}>
+          Login
+        </button>
       </p>
       <form noValidate autoComplete="off">
         <TextField
@@ -64,6 +122,7 @@ const Signup = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
+        <div style={{ color: "red" }}> {errorMessage} </div>
         <TextField
           id="standard-basic"
           label="Email"
@@ -73,6 +132,16 @@ const Signup = () => {
           style={{ marginTop: "20px" }}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+        />
+        <TextField
+          id="standard-basic"
+          label="PhoneNo"
+          type="text"
+          className={classes.root}
+          fullWidth
+          style={{ marginTop: "20px" }}
+          value={phoneno}
+          onChange={(e) => setphoneno(e.target.value)}
         />
         <Button
           variant="contained"

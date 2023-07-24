@@ -1,17 +1,19 @@
 import React from "react";
 import "./Paymentsuccess.css";
-import useCartStore from "./useCartStore";
-const OrderConfirmation = () => {
+import { useCartStore } from "./useCartStore";
+import Navbar from "../Navbar/Navbar";
+const PaymentSuccess = () => {
   const currentDate = new Date();
-  const totalAmount = useCartStore((state) => state.totalAmount);
-
+  const total = useCartStore((state) => state.total);
   const nextDay = new Date(currentDate);
   nextDay.setDate(currentDate.getDate() + 1);
   const min = 100000;
   const max = 10000000;
   const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+  localStorage.setItem("isPaymentSuccess", "false");
   return (
     <div>
+      <Navbar />
       <center>
         <img
           className="logo"
@@ -23,7 +25,7 @@ const OrderConfirmation = () => {
         <br />
         <div className="box">
           <br />
-          Your order for {totalAmount.toFixed(2)} will be ready for pickup on{" "}
+          Your order for &#x20B9; {total} will be ready for pickup on{" "}
           <b>{nextDay.toString()}</b> at <b>5:20pm.</b>
           <br />
           <br />
@@ -71,4 +73,4 @@ const OrderConfirmation = () => {
   );
 };
 
-export default OrderConfirmation;
+export default PaymentSuccess;

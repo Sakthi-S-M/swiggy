@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { data } from "../data/Mockdata.js";
+import { useCartStore } from "./useCartStore";
 import CardView from "./Cardview.js";
 import "./RestaurantList.css";
+import Navbar from "../Navbar/Navbar";
 const RestaurantList = () => {
   const [myIndex, setMyIndex] = useState(0);
-
+  const data = useCartStore((state) => state.data);
   useEffect(() => {
     const carousel = setInterval(() => {
       const images = document.getElementsByClassName("Slides");
@@ -28,6 +29,7 @@ const RestaurantList = () => {
   }, [myIndex]);
   return (
     <>
+      <Navbar />
       <div className="slideshow-container">
         <div className="slide">
           <center>

@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -114,10 +108,7 @@ header {
     top: -180px;
   }
 }
-.main .container p {
-  font-size: 20px;
-  color: #505160;
-}
+
 .searchbox {
   position: relative;
   margin: 45px 0;
@@ -130,6 +121,7 @@ header {
   border: 1px solid #bcbabe;
   font-size: 16px;
   outline: none;
+  overflow: scroll;
 }
 .searchbox input:focus {
   border: 1px solid #fb6542;
@@ -157,52 +149,7 @@ h5 {
 .img-container img {
   width: 100%;
   height: 100%;
-}
-
-/* FooterSec */
-
-footer {
-  padding: 20px;
-  background-color: #0d0f0f;
-}
-footer .container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 50px 8%;
-  justify-content: space-between;
-}
-footer .container a {
-  color: rgba(255, 255, 255, 0.7);
-  display: block;
-  padding-top: 10px;
-  font-size: 14px;
-}
-footer .container a:hover {
-  color: #fff;
-}
-.copyright {
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
-  align-items: center;
-  border-top: 1px solid #fff;
-  padding: 0 5%;
-  color: #fff;
-}
-.copyright div {
-  font-size: 20px;
-  font-family: "Krona One", sans-serif;
-}
-.copyright p {
-  font-size: 14px;
-}
-.socials {
-  width: 150px;
-  display: flex;
-  justify-content: space-between;
-}
-.socials > *:hover {
-  transform: scale(1.5, 1.5);
+  object-fit: cover;
 }
 
 .form {
@@ -243,4 +190,37 @@ form a {
 .signup-container {
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.buttonlogin {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.emptycontainer {
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emptycontainer.elements {
+  margin: 0;
 }
