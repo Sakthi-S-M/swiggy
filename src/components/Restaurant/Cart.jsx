@@ -14,10 +14,6 @@ const Cart = () => {
   const taxRate = 0.05;
   const shippingRate = 15.0;
   console.log("~! cart", cartItems);
-  const handleQuantityChange = (index, e) => {
-    const newQuantity = parseInt(e.target.value);
-    updateQuantity(index, newQuantity);
-  };
 
   const handleRemoveItem = (index) => {
     removeFromCart(index);
